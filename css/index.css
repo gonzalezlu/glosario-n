@@ -1,0 +1,80 @@
+.banner-index {
+  width: 100%;
+  min-height: 64rem;
+  background-image: url(../img/lamp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-direction: space-around;
+  align-items: center;
+  padding-top: 20rem;
+}
+
+.leyenda {
+  text-align: center;
+  font-size: var(--titulo-h2);
+  color: var(--color4);
+}
+/*boton*/
+
+.btn_banner {
+  width: 9rem;
+  text-align: center;
+  color: var(--color4);
+  text-decoration: none;
+  padding: 0.7rem;
+  margin-top: 1.5rem;
+  background-color: #80d0c7;
+  background-image: linear-gradient(180deg, #80d0c7 0%, #0093e9 100%);
+  transition: 0.3s;
+  border-radius: 5px;
+  font-size: var(--titulo-h3);
+}
+.btn_banner:hover {
+  width: 15rem;
+  transition: 0.3s;
+  border-radius: 20px;
+  background-color: var(--color2);
+}
+
+@media screen and (max-width: 768px) {
+  .banner-index {
+    width: 100%;
+    min-height: 97rem;
+    background-image: url(../img/lamp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-direction: space-around;
+    align-items: center;
+    padding-top: 20rem;
+  }
+  
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+  /* STYLES HERE */
+  .banner-index {
+    background-image: url(../img/responsive.jpg);
+    padding: 0rem 5rem 0rem 5rem;
+  }
+  .leyenda {
+    padding-top: 15rem;
+    font-size: 2.8rem;
+    border-color: black;
+  }
+  .btn_banner {
+    border-color: black 20px;
+  }
+  .btn_banner:hover {
+    width: 15rem;
+    transition: 0.3s;
+    border-radius: 20px;
+    background-color: var(--color2);
+  }
+}

@@ -1,0 +1,100 @@
+.intro {
+  font-size: 13.5px;
+  padding: 50px 60px 15px 60px;
+  text-align: center;
+}
+
+.contain {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.titulo {
+  background: var(--color1);
+  color: var(--color2);
+  font-size: 60px;
+  text-align: center;
+}
+
+.no1 {
+  max-width: 988.8543px;
+  max-height: 377.7px;
+}
+
+.no2 {
+  text-align: center;
+  font-size: var(--titulo-h3);
+}
+/*tabla de lenguage*/
+.contain2 {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.contain3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0rem;
+}
+
+.contain4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+.idiomas-uno {
+  padding: 15px;
+}
+
+.idiomas {
+  padding: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+.title {
+  text-align: center;
+  background-color: var(--color1);
+  font-size: var(--titulo-h3);
+  color: var(--color4);
+  padding: auto;
+}
+
+.css {
+  padding: 15px;
+  font-size: var(--parrafo);
+}
+.css-space {
+  padding: 15px;
+  font-size: var(--parrafo);
+}
+
+.intitle-ph1 {
+  text-align: center;
+}
+
+.img-final {
+  max-width: 100%;
+}
+
+/*phone estilos*/
+
+
+@media screen and (max-width: 1440px) {
+
+  .container-blanck{
+    float: left;
+  }
+
+
+
+
+}

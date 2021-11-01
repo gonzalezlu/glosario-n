@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --color1: #2d1040;
+  --color2: #9ad2d9;
+  --color3: #d9644a;
+  --color4: #fff;
+}
+
+body {
+  width: 1920px;
+}
+
+.numerosa {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  margin: 20px 300px 20px 300px;
+}
+
+.numerosa div {
+  width: 100px;
+  height: 60px;
+  border: 2px solid #fff;
+  background-color: #2d1040;
+  text-align: center;
+  padding-top: 40px;
+  margin: 20px 22.22px 20px 22.22px;
+  color: #fff;
+}
+
+.numerosb {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  margin: 20px 300px 20px 300px;
+}
+
+.numerosb div {
+  width: 100px;
+  height: 60px;
+  border: 2px solid #fff;
+  background-color: #2d1040;
+  text-align: center;
+  padding-top: 40px;
+  margin: 20px 22.22px 20px 22.22px;
+  color: #fff;
+}
+
+.caja4d {
+  display: flex;
+  flex-direction: column;
+  width: 1300px;
+  margin: 50px 300px 50px 300px;
+}
+
+.cajau {
+  display: flex;
+  flex-direction: column;
+  width: 622.78px;
+  float: left;
+  margin: 20px 5px 10px 323.46px;
+}
+
+.cajau div {
+  margin: 10px 0px 0px 0px;
+  border: 3px solid #fff;
+  background-color: #9ad2d9;
+  height: 75px;
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  padding-top: 25px;
+}
+
+.cajat {
+  display: flex;
+  flex-direction: column;
+  width: 622.78px;
+  float: left;
+  margin: 20px 323.46px 10px 5px;
+}
+
+.cajat div {
+  margin: 10px 0px 0px 0px;
+  border: 3px solid #fff;
+  background-color: #d9644a;
+  height: 75px;
+  text-align: center;
+  padding-top: 25px;
+  color: var(--color4);
+  font-size: 40px;
+}
